@@ -1,9 +1,9 @@
 version: '2'
 services:
-  # beats:
-  #   build: ./beats
   fluentd:
     build: ./fluentd
+    volumes:
+      - ./fluentd/:/fluentd/etc/
     ports:
       - 8888:8888
       - 24224:24224
