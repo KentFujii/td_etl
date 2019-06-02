@@ -3,7 +3,8 @@ services:
   fluentd:
     build: ./fluentd
     volumes:
-      - ./fluentd/:/fluentd/etc/
-    ports:
-      - 8888:8888
-      - 24224:24224
+      - ./unstructured_data:/var/log/
+  embulk:
+    build: ./embulk
+    volumes:
+      - ./semistructured_data:/var/log/

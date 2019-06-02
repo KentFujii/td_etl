@@ -1,3 +1,0 @@
-{"severity":"WARN","class":"ActiveJob::QueueAdapters::SidekiqAdapter::JobWrapper","wrapped":"Connect::IzanagiV1ImportJob","queue":"izanagi_v1_import"}
-{"severity":"WARN","class":"ActiveJob::QueueAdapters::SidekiqAdapter::JobWrapper","wrapped":"Connect::IzanagiV1ImportJob","queue":"izanagi_v1_import"}
-{"severity":"WARN","class":"ActiveJob::QueueAdapters::SidekiqAdapter::JobWrapper","wrapped":"Connect::IzanagiV1ImportJob","queue":"izanagi_v1_import"}

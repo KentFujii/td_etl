@@ -5,8 +5,8 @@
 
 ## gist
 
-logFile -> fluentd
-structuredDataFile -> embulk
+unstructured_data -> fluentd
+semistructured_dataFile -> embulk
 
 ## memo
 
@@ -20,5 +20,3 @@ curl -X POST -d 'json={"json":"message"}' localhost:8888
 ```
 
 delete_from_local_when_job_end: true
-
-
